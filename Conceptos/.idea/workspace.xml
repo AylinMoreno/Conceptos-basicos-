@@ -188,10 +188,10 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1602267272979">
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1603903568498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602267272979" />
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603903568498" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1601412126435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -212,6 +212,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602267276534" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1603902934009">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603902934009" />
+    <state x="65" y="0" key="new project wizard" timestamp="1603903584079">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1603903584079" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602267670799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
