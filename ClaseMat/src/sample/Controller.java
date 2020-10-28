@@ -7,13 +7,15 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 
+import java.io.DataOutput;
+
 public class Controller {
     @FXML
     TextField txtArreglo1, txtArreglo2;
     @FXML
     ListView lista1,lista2;
-    int []arreglo1=new int[5];
-    int [][]arreglo2= new int[2][4];
+    double []arreglo1= new double[5];
+    double [][]arreglo2= new double[2][4];
     int cont=0;
     int cont2=0;
     int cont3=0;
@@ -62,7 +64,7 @@ public class Controller {
     public void procesar2(ActionEvent event) {
         Calculos calculos=new Calculos(arreglo1,arreglo2);
         double[] res = calculos.procesarCoseno();
-        for (int x=0;x<res.length; x++) {
+        for (int x = 0; x<res.length; x++) {
             String columna ="";
             for (int y = 0; y < res[x];y++) {
                 columna= columna+res[x][y]+",";
@@ -70,14 +72,14 @@ public class Controller {
             lista2.getItems().add(columna);
         }
     }
-    private void imprimirArreglo(int[] arr) {
+    private void imprimirArreglo(double[] arr) {
         for (int x = 0; x < arr.length; x++) {
             System.out.println(arr[x]+",");
 
         }
         System.out.println("");
     }
-    private void imprimirArregloBidi(int[][] arr) {
+    private void imprimirArregloBidi(double[][] arr) {
         for(int x=0; x<arr.length;x++){
             for(int y=0; y<arr[x].length;y++){
                 System.out.println(arr[x][y]+",");
