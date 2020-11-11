@@ -1,6 +1,7 @@
 package Calculos;
 
-public class Calculos {
+public class
+Calculos {
 
         double[] a;
         double[][] b;

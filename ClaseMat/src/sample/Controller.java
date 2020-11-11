@@ -63,10 +63,10 @@ public class Controller {
 
     public void procesar2(ActionEvent event) {
         Calculos calculos=new Calculos(arreglo1,arreglo2);
-        double[] res = calculos.procesarCoseno();
+        double[][] res = calculos.procesarSeno();
         for (int x = 0; x<res.length; x++) {
             String columna ="";
-            for (int y = 0; y < res[x];y++) {
+            for (int y = 0; y < res[x].length ;y++) {
                 columna= columna+res[x][y]+",";
             }
             lista2.getItems().add(columna);
