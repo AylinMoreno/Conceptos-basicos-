@@ -28,31 +28,32 @@ String[] pepes=new  String[3];
     }
 
 
-    public void procesar (ActionEvent event) {
+    public void insertar (ActionEvent event) {
         if (cont<4){
-            double x = Double.parseDouble(txtarreglo.getText());
+            //double x = Double.parseDouble(txtarreglo.getText());
             int nacimiento = Integer.parseInt(txtarreglo.getText());
             arreglo_nacimientos[cont] = nacimiento;
             cont++;
-            txtarreglo.setText("");
+
             imprimirArreglo(arreglo_nacimientos);
+            double x = Double.parseDouble(txtarreglo.getText());
+            String res = pepe.Por_nacimiento(x);
+            pepes[1] = res;
+            txtarreglo.setText("");
         }else {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("ERROR");
             alert.setContentText("Arreglo lleno");
             alert.show();
-            double x = Double.parseDouble(txtarreglo.getText());
-            String res = pepe.Por_nacimiento(x);
-            pepes[1]= String.valueOf(comboBox.getValue().toString());
-
 
         }
-        public void insertar (ActionEvent event){
+        }
+        public void procesar (ActionEvent event){
             double y= Double.parseDouble(txtarreglo.getText());
-            lista.getItems().add("Pescado"+ pepes[1]+"  nacen" + y +  "  por cria"  + pepes[1] +  "  al año, perdida de peces"  );
+            lista.getItems().add("Pescado"+comboBox.getValue().toString()+ "  nacen" + y +  "  por cria"  + pepes[1] +  "  al año, perdida de peces"  );
             txtarreglo.setText(String.valueOf(""));
         }
-        }
+    //pepes[1]+
 
 
 
