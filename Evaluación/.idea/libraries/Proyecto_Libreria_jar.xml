@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Proyecto_Libreria_jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Proyecto Libreria/out/artifacts/Proyecto_Libreria_jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../Proyecto Libreria/out/artifacts/Proyecto_Libreria_jar" recursive="false" />
+  </library>
+</component>
